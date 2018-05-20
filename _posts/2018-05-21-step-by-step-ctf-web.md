@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Step-By-Step CTF-Web  
-categories: others
+tags: [ctf, web, tut]
 ---
 
 
