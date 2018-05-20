@@ -59,8 +59,7 @@ You can use the OPTIONS method to list the HTTP methods that are permitted in a 
 <h4><b>LFI/RFI:</b></h4>
 <p>Look for query string or post params (ie page=,url=,lang= etc), which might be including other files into the webpage.
 If LFI exists and PHP version >= 5.0.0 then try to use php resource to disclose the server side code.</p>
-<pre><code>
-php://filter/convert.base64-encode/resource="argument"
+<pre><code>php://filter/convert.base64-encode/resource="argument"
 </code></pre>
 If LFI/RFI exists and PHP version >= 5.2.0 with allow_url_include ON. Try data stream method to execute shell on the server
 <br/>
@@ -71,8 +70,7 @@ If LFI/RFI exists and PHP version >= 5.2.0 with allow_url_include ON. Try data s
 - url encode
 <br/>
 
-<pre><code>
-index.php?file=data://text/plain;base64,"encoded shell"
+<pre><code>index.php?file=data://text/plain;base64,"encoded shell"
 </code></pre>
 
 Bypassing added suffix <b>.php</b> for RFI
@@ -128,5 +126,4 @@ Bypassing added suffix <b>.php</b> for RFI
 
 <p>Never forget to do user enumeration, may find interesting things.</p>
 <br/>
-<h4><b>Cross Site Scripting:</b></h4>
-<br/>
+
