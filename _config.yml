@@ -116,7 +116,7 @@ url-pretty: "twisted-fun.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "twisted-fun"
 
 # Facebook App ID
 # fb_app_id: ""
