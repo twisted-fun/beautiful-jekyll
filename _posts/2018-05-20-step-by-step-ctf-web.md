@@ -8,7 +8,7 @@ tags: [ctf, web, tut]
 <p>The following are the steps to follow, when encountered by a web application in a Capture The Flag event. These steps are compiled from my experience in CTF and will be an ongoing project.</p>
 <br/>
 <h4><b>Spider:</b></h4>
-<p>One can use BurpSuite or Owasp-Zap for spidering web application. In burp, intercepted packet can be passed to the spider for automated spidering. For web applications integrated with login facility though, manual spidering through burp is adviced to avoid spider from stepping on logout link.</p>
+<p>One can use BurpSuite or Owasp-Zap for spidering web application. In burp, intercepted packet can be passed to the spider for automated spidering. For web applications integrated with login facility though, manual spidering through burp is advised to avoid spider from stepping on logout link.</p>
 <br/>
 <h4><b>Files Of Interest:</b></h4>
 <p>The following files are often seen in CTF, to be very useful to look into.</p>
@@ -22,7 +22,7 @@ tags: [ctf, web, tut]
 </ul>
 <br/>
 <h4><b>Page Source:</b></h4>
-<p>Analyze the source of whole web application (at least what you find relevent for the challenge). Look for comments, hidden tag or disabled tag, javascript obfuscations etc.</p>
+<p>Analyze the source of whole web application (at least what you find relevant for the challenge). Look for comments, hidden tag or disabled tag, javascript obfuscations etc.</p>
 <br/>
 <h4><b>Stegnography:</b></h4>
 <p>If any images, videos or files are found on web app. Download them and check for interesting stegnos. We can use the following tools to help us find hidden content in files.</p>
@@ -49,12 +49,12 @@ application. Here are some methods to look for:
 <br/>
 - <b>SEARCH</b> searches a directory path for resources.
 <br/>
-- <b>PROPFIND</b> retrieves information about the specifi ed resource, such as author, size, and content type.
+- <b>PROPFIND</b> retrieves information about the specified resource, such as author, size, and content type.
 <br/>
 You can use the OPTIONS method to list the HTTP methods that are permitted in a particular directory or just use <b>devtest</b> tool to make things easier.</p>
 <br/>
 <h4><b>Request & Response:</b></h4>
-<p>Intercept all requests to the server. Try to change the relevent http header tags or request params and see how web app responds.</p>
+<p>Intercept all requests to the server. Try to change the relevant http header tags or request params and see how web app responds.</p>
 <br/>
 <h4><b>LFI/RFI:</b></h4>
 <p>Look for query string or post params (ie page=,url=,lang= etc), which might be including other files into the webpage.
@@ -65,7 +65,7 @@ If LFI/RFI exists and PHP version >= 5.2.0 with allow_url_include ON. Try data s
 <br/>
 - create php shell payload
 <br/>
-- base64 encode 
+- base64 encode
 <br/>
 - url encode
 <br/>
@@ -105,12 +105,12 @@ Bypassing added suffix <b>.php</b> for RFI
 - "file.php%00.jpg"
 <br/>
 <p>In case of content-type filter use intercepting proxy.</p>
-<p>In case of file-type recogniser try to use</p>
+<p>In case of file-type recognizer try to use</p>
 - Magic Number of accepted files
 <br/>
 - Insert your code in comment section of the metadata
 <br/>
-- use file modifier (ie image resizer) to produce malicious code itself when receiving special input
+- use file modifier (ie image re-sizer) to produce malicious code itself when receiving special input
 <br/>
 <br/>
 <h4><b>Vulnerable Framework:</b></h4>
@@ -126,4 +126,3 @@ Bypassing added suffix <b>.php</b> for RFI
 
 <p>Never forget to do user enumeration, may find interesting things.</p>
 <br/>
-
