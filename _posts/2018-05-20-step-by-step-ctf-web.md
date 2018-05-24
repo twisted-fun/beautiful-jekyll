@@ -5,7 +5,7 @@ tags: [ctf, web, tut]
 ---
 
 
-<p>The following are the steps to follow, when encountered by a web application in a Capture The Flag event. These steps are compiled from my experience in CTF and will be an ongoing project.</p>
+<p>The following are the steps to follow, when encountered by a web application in a Capture The Flag event. These steps are compiled from my experience in CTF and will be an ongoing project. </p>
 <br/>
 <h4><b>Spider:</b></h4>
 <p>One can use BurpSuite or Owasp-Zap for spidering web application. In burp, intercepted packet can be passed to the spider for automated spidering. For web applications integrated with login facility though, manual spidering through burp is advised to avoid spider from stepping on logout link.</p>
