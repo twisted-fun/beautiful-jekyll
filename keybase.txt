@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/r00t3r
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://twisted-fun.github.io
+  * I am r00t3r (https://keybase.io/r00t3r) on keybase.
+  * I have a public key ASDxVsWSVlem2xPdPKhJDMQ5we4qDVaYWfoxH2o44rNOgwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f156c5925657a6db13dd3ca8490cc439c1ee2a0d569859fa311f6a38e2b34e830a",
+      "host": "keybase.io",
+      "kid": "0120f156c5925657a6db13dd3ca8490cc439c1ee2a0d569859fa311f6a38e2b34e830a",
+      "uid": "c6c159d561bebca3a5b373aee4bb2319",
+      "username": "r00t3r"
+    },
+    "merkle_root": {
+      "ctime": 1537362409,
+      "hash": "ca0bb521b8975f05b24be5a4c0b7fb1e1adced6bc26535feaa9885ed7f02a2a556ac529292fc2aff6211fcdd649d2dd1d8d027df5d1b1f4a8ba134d8ddf6e5dd",
+      "hash_meta": "db30864c40f3bb553f8e9981b10109e74a598f1377f5608e34b2e677622967fb",
+      "seqno": 3631670
+    },
+    "service": {
+      "entropy": "HO7RGFYrDzKrWCoUcrOFdK7o",
+      "hostname": "twisted-fun.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1537362438,
+  "expire_in": 504576000,
+  "prev": "c437f77cce78f6383f25e631bf75416ac2f306839fcabfb31f7ea072f31566d7",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8VbFklZXptsT3TyoSQzEOcHuKg1WmFn6MR9qOOKzToMKp3BheWxvYWTESpcCCcQgxDf3fM549jg/JeYxv3VBasLzBoOfyr+zH36gcvMVZtfEIMZc+RjL2Ynj/T6jBiGmOoAiTenIhWaxDcvnsxfFFjEmAgHCo3NpZ8RAWVmTWA4W1iAelI6by3Ko3fhbSVY2UVYMMXH4sRtocAFOf1atnncgd+JMT/cleu48XZLoADZ5Dt20qWurTDBrAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMnoPZkiebX8r81iTRd579jh+ATJEzX5/drSQjtQfRz4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/r00t3r
+
+==================================================================
